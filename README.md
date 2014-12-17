@@ -10,6 +10,7 @@ Include this script in the `<head>`, before everything else.  It is best run as 
 <html>
   <head>
     <script type="text/javascript">
+        // See github.com/BevanR/location.href-cleaner
         (function(){var a=location.origin+location.pathname+location.search+location.hash;location.href!==a&&("function"===typeof history.replaceState?history.replaceState({},document.title,a):location.href=a)})();
     </script>
 ```

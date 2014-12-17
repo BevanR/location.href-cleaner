@@ -10,6 +10,7 @@ Include this script in the `<head>`, before everything else.  It is best run as 
 <html>
   <head>
     <script type="text/javascript">
+        // See github.com/BevanR/location.href-cleaner
         {{PLACEHOLDER}}
     </script>
 ```
